@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_134762d3b63023c7bebe35b956359ecc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_134762d3b63023c7bebe35b956359ecc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_134762d3b63023c7bebe35b956359ecc = L.map(
+                "map_134762d3b63023c7bebe35b956359ecc",
+                {
+                    center: [47.489, 19.09],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_93341c1df3692d3070e7ded6732a046e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_93341c1df3692d3070e7ded6732a046e.addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_f6e7cbfef770b05bda3b888eb589e7a2 = L.marker(
+                [47.48857334402577, 19.088953885890064],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_9ed4e08d7e7908ee9c64a5af8954b6c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a10a9e5a91c7bd1eb03d8079b13fde12 = $(`<div id="html_a10a9e5a91c7bd1eb03d8079b13fde12" style="width: 100.0%; height: 100.0%;">Csobanc utca 5</div>`)[0];
+                popup_9ed4e08d7e7908ee9c64a5af8954b6c0.setContent(html_a10a9e5a91c7bd1eb03d8079b13fde12);
+            
+        
+
+        marker_f6e7cbfef770b05bda3b888eb589e7a2.bindPopup(popup_9ed4e08d7e7908ee9c64a5af8954b6c0)
+        ;
+
+        
+    
+    
+            marker_f6e7cbfef770b05bda3b888eb589e7a2.bindTooltip(
+                `<div>
+                     Csobanc utca 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_a78d7818da0e0b17af5254da9a74faaf = L.circle(
+                [47.48857334402577, 19.088953885890064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_083e3c45efaccf6f99fa3c1bfd3f30ac = L.marker(
+                [47.48853656856128, 19.08830812644916],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_e7b5419958ec8eb5b7d68166f6860309 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b5d506ac624fdfeca5894b5b849b52d = $(`<div id="html_8b5d506ac624fdfeca5894b5b849b52d" style="width: 100.0%; height: 100.0%;">Csobanc utca 1</div>`)[0];
+                popup_e7b5419958ec8eb5b7d68166f6860309.setContent(html_8b5d506ac624fdfeca5894b5b849b52d);
+            
+        
+
+        marker_083e3c45efaccf6f99fa3c1bfd3f30ac.bindPopup(popup_e7b5419958ec8eb5b7d68166f6860309)
+        ;
+
+        
+    
+    
+            marker_083e3c45efaccf6f99fa3c1bfd3f30ac.bindTooltip(
+                `<div>
+                     Csobanc utca 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f33255482af6419d2f7d5082783584d4 = L.circle(
+                [47.48853656856128, 19.08830812644916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_cc4b45a486fcf227fbcd4bc897ea6fd2 = L.marker(
+                [47.49177420729229, 19.07897362459806],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_d312a4d582f6bc321e6c97db5f9a8590 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd080e34c0732536becd82685c5e1203 = $(`<div id="html_cd080e34c0732536becd82685c5e1203" style="width: 100.0%; height: 100.0%;">Matyas ter 4</div>`)[0];
+                popup_d312a4d582f6bc321e6c97db5f9a8590.setContent(html_cd080e34c0732536becd82685c5e1203);
+            
+        
+
+        marker_cc4b45a486fcf227fbcd4bc897ea6fd2.bindPopup(popup_d312a4d582f6bc321e6c97db5f9a8590)
+        ;
+
+        
+    
+    
+            marker_cc4b45a486fcf227fbcd4bc897ea6fd2.bindTooltip(
+                `<div>
+                     Matyas ter 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_729008dbe79c5c8b0cbda1869f3734c6 = L.circle(
+                [47.49177420729229, 19.07897362459806],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_d8ea3b70163f5083391956c31ced6c29 = L.marker(
+                [47.492743155983206, 19.079666868777625],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_25f83c692dd830f56b23e543dcbff000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98edbd8fb80554dbdda57407662001c8 = $(`<div id="html_98edbd8fb80554dbdda57407662001c8" style="width: 100.0%; height: 100.0%;">Matyas ter 15</div>`)[0];
+                popup_25f83c692dd830f56b23e543dcbff000.setContent(html_98edbd8fb80554dbdda57407662001c8);
+            
+        
+
+        marker_d8ea3b70163f5083391956c31ced6c29.bindPopup(popup_25f83c692dd830f56b23e543dcbff000)
+        ;
+
+        
+    
+    
+            marker_d8ea3b70163f5083391956c31ced6c29.bindTooltip(
+                `<div>
+                     Matyas ter 15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fb9f50264c28ab673863c722a5590194 = L.circle(
+                [47.492743155983206, 19.079666868777625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_e186c5e13d27cc5b1426d7d2a91bfa05 = L.marker(
+                [47.48320174788032, 19.100340863772768],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_f9d9ac31dab38db5fddfe96a9e4c841c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50b3f621004145262ca193496786aa6d = $(`<div id="html_50b3f621004145262ca193496786aa6d" style="width: 100.0%; height: 100.0%;">Vajda Peter utca 37-39</div>`)[0];
+                popup_f9d9ac31dab38db5fddfe96a9e4c841c.setContent(html_50b3f621004145262ca193496786aa6d);
+            
+        
+
+        marker_e186c5e13d27cc5b1426d7d2a91bfa05.bindPopup(popup_f9d9ac31dab38db5fddfe96a9e4c841c)
+        ;
+
+        
+    
+    
+            marker_e186c5e13d27cc5b1426d7d2a91bfa05.bindTooltip(
+                `<div>
+                     Vajda Peter utca 37-39
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2d1e8023106441b81ed3eded624bbc4e = L.circle(
+                [47.48320174788032, 19.100340863772768],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_ddc2e3726b0bd7d23fb9fa49d741c8a6 = L.marker(
+                [47.483994807181894, 19.097867626365655],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_f40a7df2f20affa76a6e78847df49b6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2979e4de810eb40b1d2b142bae5f226f = $(`<div id="html_2979e4de810eb40b1d2b142bae5f226f" style="width: 100.0%; height: 100.0%;">Vajda Peter utca 25-31</div>`)[0];
+                popup_f40a7df2f20affa76a6e78847df49b6e.setContent(html_2979e4de810eb40b1d2b142bae5f226f);
+            
+        
+
+        marker_ddc2e3726b0bd7d23fb9fa49d741c8a6.bindPopup(popup_f40a7df2f20affa76a6e78847df49b6e)
+        ;
+
+        
+    
+    
+            marker_ddc2e3726b0bd7d23fb9fa49d741c8a6.bindTooltip(
+                `<div>
+                     Vajda Peter utca 25-31
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1d158da0d179456a527f5f89925790a4 = L.circle(
+                [47.483994807181894, 19.097867626365655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_c37d544f572d9317d899838b3e7895f8 = L.marker(
+                [47.491735059044544, 19.06729516692629],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_6cb41076cc204e1748cf46c698ddf311 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_263f3660052478f66fe1018dc8ec64f2 = $(`<div id="html_263f3660052478f66fe1018dc8ec64f2" style="width: 100.0%; height: 100.0%;">Horánszky utca. 13</div>`)[0];
+                popup_6cb41076cc204e1748cf46c698ddf311.setContent(html_263f3660052478f66fe1018dc8ec64f2);
+            
+        
+
+        marker_c37d544f572d9317d899838b3e7895f8.bindPopup(popup_6cb41076cc204e1748cf46c698ddf311)
+        ;
+
+        
+    
+    
+            marker_c37d544f572d9317d899838b3e7895f8.bindTooltip(
+                `<div>
+                     Horánszky utca. 13
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9675d8cddb8f8ede8c56e3e875f89e0a = L.circle(
+                [47.491735059044544, 19.06729516692629],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_7147f250c5bca3286543d35c65cb7eee = L.marker(
+                [47.494467354426035, 19.069484424598127],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_be203a1052e61f9e95b85328c6bb094f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dd68bcd1bc8c0a5ada7a9a4d809deee = $(`<div id="html_0dd68bcd1bc8c0a5ada7a9a4d809deee" style="width: 100.0%; height: 100.0%;">Somogyi Béla u. 9</div>`)[0];
+                popup_be203a1052e61f9e95b85328c6bb094f.setContent(html_0dd68bcd1bc8c0a5ada7a9a4d809deee);
+            
+        
+
+        marker_7147f250c5bca3286543d35c65cb7eee.bindPopup(popup_be203a1052e61f9e95b85328c6bb094f)
+        ;
+
+        
+    
+    
+            marker_7147f250c5bca3286543d35c65cb7eee.bindTooltip(
+                `<div>
+                     Somogyi Béla u. 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6eabfefb7b11e5ea4d2ff40dbb2243a8 = L.circle(
+                [47.494467354426035, 19.069484424598127],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_42a606d31cb9c4ba1e37a8c19499d238 = L.marker(
+                [47.48685200094487, 19.068432439858782],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_d03db65315b221a0f53020233b38a925 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c7d223c853d4376ef0e1c3354571f81 = $(`<div id="html_0c7d223c853d4376ef0e1c3354571f81" style="width: 100.0%; height: 100.0%;">Üllői út 30</div>`)[0];
+                popup_d03db65315b221a0f53020233b38a925.setContent(html_0c7d223c853d4376ef0e1c3354571f81);
+            
+        
+
+        marker_42a606d31cb9c4ba1e37a8c19499d238.bindPopup(popup_d03db65315b221a0f53020233b38a925)
+        ;
+
+        
+    
+    
+            marker_42a606d31cb9c4ba1e37a8c19499d238.bindTooltip(
+                `<div>
+                     Üllői út 30
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_bee096b05222b111e4f31e702bbbf395 = L.circle(
+                [47.48685200094487, 19.068432439858782],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_bad08ca091409c93bccc0f481ccf851f = L.marker(
+                [47.48683112463025, 19.072394139941412],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_20f2c1fb4080e36cf5b3836304577a34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a4405a37ed4ba487762dfbaa210f336 = $(`<div id="html_3a4405a37ed4ba487762dfbaa210f336" style="width: 100.0%; height: 100.0%;">Práter utca 11</div>`)[0];
+                popup_20f2c1fb4080e36cf5b3836304577a34.setContent(html_3a4405a37ed4ba487762dfbaa210f336);
+            
+        
+
+        marker_bad08ca091409c93bccc0f481ccf851f.bindPopup(popup_20f2c1fb4080e36cf5b3836304577a34)
+        ;
+
+        
+    
+    
+            marker_bad08ca091409c93bccc0f481ccf851f.bindTooltip(
+                `<div>
+                     Práter utca 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_fc26bc4eae2a2745de740d54e08fa06c = L.circle(
+                [47.48683112463025, 19.072394139941412],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_8ae4536dc389965d3aff83225dfae7a2 = L.marker(
+                [47.49021315977224, 19.07316926877744],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_aa1c4ca42be9ce088b0ce151249d2a33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4af061d8f9cf0d069267277099b0d8e1 = $(`<div id="html_4af061d8f9cf0d069267277099b0d8e1" style="width: 100.0%; height: 100.0%;">Rigó utca 16</div>`)[0];
+                popup_aa1c4ca42be9ce088b0ce151249d2a33.setContent(html_4af061d8f9cf0d069267277099b0d8e1);
+            
+        
+
+        marker_8ae4536dc389965d3aff83225dfae7a2.bindPopup(popup_aa1c4ca42be9ce088b0ce151249d2a33)
+        ;
+
+        
+    
+    
+            marker_8ae4536dc389965d3aff83225dfae7a2.bindTooltip(
+                `<div>
+                     Rigó utca 16
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_9d42700af6b517b80e1dd0b5de9e2ba9 = L.circle(
+                [47.49021315977224, 19.07316926877744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_8124644674f4f3a08e4fb5c04bd8ccf6 = L.marker(
+                [47.49147280733156, 19.073728268777565],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_49fcf3899d2444df682c694346c85eb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18bdccc7af9b5f49bb931e101635258d = $(`<div id="html_18bdccc7af9b5f49bb931e101635258d" style="width: 100.0%; height: 100.0%;">Német utca 14</div>`)[0];
+                popup_49fcf3899d2444df682c694346c85eb6.setContent(html_18bdccc7af9b5f49bb931e101635258d);
+            
+        
+
+        marker_8124644674f4f3a08e4fb5c04bd8ccf6.bindPopup(popup_49fcf3899d2444df682c694346c85eb6)
+        ;
+
+        
+    
+    
+            marker_8124644674f4f3a08e4fb5c04bd8ccf6.bindTooltip(
+                `<div>
+                     Német utca 14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_6a89463451afa16c26714a7bc9417c52 = L.circle(
+                [47.49147280733156, 19.073728268777565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_bae72610753fd0ee5dd8f25f04a8537b = L.marker(
+                [47.49055566338369, 19.078524084121074],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_499f32e329011307c7c0c0465f528fa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a900acd675c3445e5e5e153cde5575a = $(`<div id="html_5a900acd675c3445e5e5e153cde5575a" style="width: 100.0%; height: 100.0%;">Szűz utca 2</div>`)[0];
+                popup_499f32e329011307c7c0c0465f528fa5.setContent(html_5a900acd675c3445e5e5e153cde5575a);
+            
+        
+
+        marker_bae72610753fd0ee5dd8f25f04a8537b.bindPopup(popup_499f32e329011307c7c0c0465f528fa5)
+        ;
+
+        
+    
+    
+            marker_bae72610753fd0ee5dd8f25f04a8537b.bindTooltip(
+                `<div>
+                     Szűz utca 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f80752fed1524d98c7723af0ccdde5e2 = L.circle(
+                [47.49055566338369, 19.078524084121074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_9f31b11b9d8d05c52e62f53dae7db21f = L.marker(
+                [47.49467059729676, 19.074086238090448],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_455085fd03ecc096341c6b13b0c5de40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c77baff1acf000950b0ce0a24686fb1e = $(`<div id="html_c77baff1acf000950b0ce0a24686fb1e" style="width: 100.0%; height: 100.0%;">Tolnai Lajos utca 11-15</div>`)[0];
+                popup_455085fd03ecc096341c6b13b0c5de40.setContent(html_c77baff1acf000950b0ce0a24686fb1e);
+            
+        
+
+        marker_9f31b11b9d8d05c52e62f53dae7db21f.bindPopup(popup_455085fd03ecc096341c6b13b0c5de40)
+        ;
+
+        
+    
+    
+            marker_9f31b11b9d8d05c52e62f53dae7db21f.bindTooltip(
+                `<div>
+                     Tolnai Lajos utca 11-15
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_2e1865e433b7985253990d313fca86b2 = L.circle(
+                [47.49467059729676, 19.074086238090448],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_47cc6ac9388762ea1e276923c5273e5d = L.marker(
+                [47.49649368861812, 19.07631328412126],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_f07924eaf6071804fe155549c3f561d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c5aeea24c662d901e2908ecd7f220eb = $(`<div id="html_4c5aeea24c662d901e2908ecd7f220eb" style="width: 100.0%; height: 100.0%;">II. János Pál pápa tér 4</div>`)[0];
+                popup_f07924eaf6071804fe155549c3f561d6.setContent(html_4c5aeea24c662d901e2908ecd7f220eb);
+            
+        
+
+        marker_47cc6ac9388762ea1e276923c5273e5d.bindPopup(popup_f07924eaf6071804fe155549c3f561d6)
+        ;
+
+        
+    
+    
+            marker_47cc6ac9388762ea1e276923c5273e5d.bindTooltip(
+                `<div>
+                     II. János Pál pápa tér 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_326ba9f9a92b1f5085e1762d6632c155 = L.circle(
+                [47.49649368861812, 19.07631328412126],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_59efdcf42fea873f95d34d97b8f411b5 = L.marker(
+                [47.48837820295313, 19.08386926174733],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_8d494c9053be9c9b9121aead4f139d99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_575c95111c393e3a53f7bb6f908ca082 = $(`<div id="html_575c95111c393e3a53f7bb6f908ca082" style="width: 100.0%; height: 100.0%;">Baross utca 117</div>`)[0];
+                popup_8d494c9053be9c9b9121aead4f139d99.setContent(html_575c95111c393e3a53f7bb6f908ca082);
+            
+        
+
+        marker_59efdcf42fea873f95d34d97b8f411b5.bindPopup(popup_8d494c9053be9c9b9121aead4f139d99)
+        ;
+
+        
+    
+    
+            marker_59efdcf42fea873f95d34d97b8f411b5.bindTooltip(
+                `<div>
+                     Baross utca 117
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_0ccd42380fd2a21364336f3df50907a7 = L.circle(
+                [47.48837820295313, 19.08386926174733],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_e99edd7d99f9bb69f6c62c36324167de = L.marker(
+                [47.48854374412798, 19.088265197531083],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_06b572cf2e00d2f6c2332004cb5a2293 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656a06328df537980e91edb3af187418 = $(`<div id="html_656a06328df537980e91edb3af187418" style="width: 100.0%; height: 100.0%;">Csobánc u. 1</div>`)[0];
+                popup_06b572cf2e00d2f6c2332004cb5a2293.setContent(html_656a06328df537980e91edb3af187418);
+            
+        
+
+        marker_e99edd7d99f9bb69f6c62c36324167de.bindPopup(popup_06b572cf2e00d2f6c2332004cb5a2293)
+        ;
+
+        
+    
+    
+            marker_e99edd7d99f9bb69f6c62c36324167de.bindTooltip(
+                `<div>
+                     Csobánc u. 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8a5932e5fc0a9a52875c33bc898c5fa4 = L.circle(
+                [47.48854374412798, 19.088265197531083],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_f38daecf86a8693868d1395deed5cfc0 = L.marker(
+                [47.4855630268572, 19.08113372644901],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_f089af89ad2a7b2f8fd2b2a8682a6b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b432f07a22cc6984467b3cd82cbfa81 = $(`<div id="html_1b432f07a22cc6984467b3cd82cbfa81" style="width: 100.0%; height: 100.0%;">Tömő utca 38/a</div>`)[0];
+                popup_f089af89ad2a7b2f8fd2b2a8682a6b6f.setContent(html_1b432f07a22cc6984467b3cd82cbfa81);
+            
+        
+
+        marker_f38daecf86a8693868d1395deed5cfc0.bindPopup(popup_f089af89ad2a7b2f8fd2b2a8682a6b6f)
+        ;
+
+        
+    
+    
+            marker_f38daecf86a8693868d1395deed5cfc0.bindTooltip(
+                `<div>
+                     Tömő utca 38/a
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7d2e942e10c093074e2fd497c243a055 = L.circle(
+                [47.4855630268572, 19.08113372644901],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_41d5f17cb572616f8790d85dfac57fb3 = L.marker(
+                [47.495691847028255, 19.080401109254616],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_20de6b79975adf23e2277e30db15ad7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_883b03af3025650d1b355dccccfe590d = $(`<div id="html_883b03af3025650d1b355dccccfe590d" style="width: 100.0%; height: 100.0%;">II. János Pál pápa tér 17</div>`)[0];
+                popup_20de6b79975adf23e2277e30db15ad7f.setContent(html_883b03af3025650d1b355dccccfe590d);
+            
+        
+
+        marker_41d5f17cb572616f8790d85dfac57fb3.bindPopup(popup_20de6b79975adf23e2277e30db15ad7f)
+        ;
+
+        
+    
+    
+            marker_41d5f17cb572616f8790d85dfac57fb3.bindTooltip(
+                `<div>
+                     II. János Pál pápa tér 17
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_1b3195bc201135e4f31a494cf8e44874 = L.circle(
+                [47.495691847028255, 19.080401109254616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+            var marker_375589f5977a90603deab3d06e4c5084 = L.marker(
+                [47.47937725899321, 19.097851369570872],
+                {
+}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+    
+        var popup_a36dadb0a601370a24f93f510bbe21c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea3d682a98e3e6528d2cf06ec4c59a71 = $(`<div id="html_ea3d682a98e3e6528d2cf06ec4c59a71" style="width: 100.0%; height: 100.0%;">Elnök utca 3</div>`)[0];
+                popup_a36dadb0a601370a24f93f510bbe21c4.setContent(html_ea3d682a98e3e6528d2cf06ec4c59a71);
+            
+        
+
+        marker_375589f5977a90603deab3d06e4c5084.bindPopup(popup_a36dadb0a601370a24f93f510bbe21c4)
+        ;
+
+        
+    
+    
+            marker_375589f5977a90603deab3d06e4c5084.bindTooltip(
+                `<div>
+                     Elnök utca 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_7f0934737c3ce2edbeb2080de7688cda = L.circle(
+                [47.47937725899321, 19.097851369570872],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 150, "stroke": true, "weight": 3}
+            ).addTo(map_134762d3b63023c7bebe35b956359ecc);
+        
+</script>
+</html>
